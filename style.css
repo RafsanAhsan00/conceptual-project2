@@ -119,12 +119,19 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    border-right: 2px solid black;
+    
 }
 .appointment-container{
+    background-image: url('/assets/image/background.jpg'),linear-gradient(45deg,rgba(10, 10, 45, 0.786),rgba(0, 0, 0, 0.849));
+    background-blend-mode: overlay;
+    height: 140px;
     width: 80%;
+    border-radius: 8px;
     margin: auto;
-    background-color: red;
+   
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: -30px;
 }
