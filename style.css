@@ -17,3 +17,41 @@
    color: white;
    font-size: 20px;
 }
+/* banner style starts form here */
+.banner-container{
+    height: 100vh;
+    background-image: url('/assets/image/background.jpg'),linear-gradient(rgba(77, 52, 176, 0.3),rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.primary{
+    color: red;
+}
+.title{
+    font-size: 60px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+.description{
+    color: rgb(189, 238, 239);
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.btn{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+
+    
+}
+.bg-primary{
+    background-color: red;
+    color: white;
+}
