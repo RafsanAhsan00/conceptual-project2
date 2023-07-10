@@ -94,3 +94,21 @@
     width: 70px;
     border-radius: 50%;
 }
+.author-container{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+   
+
+}
+.author-profile{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 30px;
+    border-right: 2px solid red;
+    padding-right: 50px;
+}
+.main-title{
+    margin: 30px 0px;
+}
