@@ -112,3 +112,19 @@
 .main-title{
     margin: 30px 0px;
 }
+.phone-img{
+    width: 100px;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.appointment-container{
+    width: 80%;
+    margin: auto;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
