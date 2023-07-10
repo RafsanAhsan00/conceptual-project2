@@ -63,6 +63,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: white;
 }
 .icon{
     width: 100px;
@@ -71,8 +76,21 @@
 .box{
     text-align: center;
     width: 200px;
-    height: 30px;
+    height: 200px;
     padding-top: 25px;
     background-color: white;
     color: black;
+}
+.main-description{
+    width: 50%;
+}
+.boxes-1{
+    display: flex;
+    gap: 3px;
+    margin-top:5px;
+   
+}
+.author-img{
+    width: 70px;
+    border-radius: 50%;
 }
